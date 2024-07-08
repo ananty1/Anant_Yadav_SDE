@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ananty1/Anant_Yadav_SDE.git/static/css/main.a63e460c.css",
+    "main.js": "/ananty1/Anant_Yadav_SDE.git/static/js/main.d5ecda88.js",
+    "static/js/453.aac68abc.chunk.js": "/ananty1/Anant_Yadav_SDE.git/static/js/453.aac68abc.chunk.js",
+    "static/media/anant.JPG": "/ananty1/Anant_Yadav_SDE.git/static/media/anant.24ff300a5c0f6124ac00.JPG",
+    "static/media/blog.png": "/ananty1/Anant_Yadav_SDE.git/static/media/blog.6330cdc31c3f873fe163.png",
+    "static/media/homecart.png": "/ananty1/Anant_Yadav_SDE.git/static/media/homecart.562470176afc02e3a62e.png",
+    "index.html": "/ananty1/Anant_Yadav_SDE.git/index.html",
+    "main.a63e460c.css.map": "/ananty1/Anant_Yadav_SDE.git/static/css/main.a63e460c.css.map",
+    "main.d5ecda88.js.map": "/ananty1/Anant_Yadav_SDE.git/static/js/main.d5ecda88.js.map",
+    "453.aac68abc.chunk.js.map": "/ananty1/Anant_Yadav_SDE.git/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a63e460c.css",
+    "static/js/main.d5ecda88.js"
+  ]
+}

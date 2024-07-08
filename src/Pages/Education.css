@@ -1,0 +1,22 @@
+.education {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .education-item {
+    margin-top: 2rem;
+    text-align: left;
+    border-left: 3px solid #007BFF;
+    padding-left: 1rem;
+  }
+  
+  .education-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  

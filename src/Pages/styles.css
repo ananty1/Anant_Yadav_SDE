@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .app-bar {
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .navbar-link {
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home-subheader {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'; // Custom CSS for styling
-import anant from '../assets/anant.JPG';
+import anant from '../assets/anant.png';
 const About = () => {
   return (
     <div className="about">

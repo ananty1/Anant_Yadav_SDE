@@ -2,7 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import './Home.css'; // Custom CSS for styling
-import anant from '../assets/anant.JPG';
+import anant from '../assets/anant.png';
 import homecart from '../assets/homecart.png';
 import blog from '../assets/blog.png';
 
@@ -23,7 +23,7 @@ const Home = () => {
           </div>
           <div>
             <img src={homecart} alt="E commerce website" />
-            <p className="legend">E commerce website</p>
+            <p className="legend"></p>
           </div>
           {/* <div>
             <img src="image3-url.jpg" alt="Project 3" />

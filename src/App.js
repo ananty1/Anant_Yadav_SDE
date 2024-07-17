@@ -33,7 +33,7 @@ const App = () => {
            <Route path="/navbar" element={<NavbarDummy />} />
 
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

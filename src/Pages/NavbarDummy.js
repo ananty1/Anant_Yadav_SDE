@@ -6,9 +6,11 @@ import { AiFillPhone,AiOutlineClockCircle } from 'react-icons/ai'
 import { BsChatDots } from 'react-icons/bs'
 import Toolbar from './Toolbar'
 import Hero from './Hero'
+import { useNavigate } from 'react-router-dom'
+
 
 function NavbarDummy() {
-    
+    const navigate = useNavigate();
   return (
     <>
     <div className='flex justify-between items-center px-4 py-2'>
@@ -25,7 +27,7 @@ function NavbarDummy() {
           <AiFillPhone size={20}  className='text-[var(--primary-dark)] mr-2'/>
           <p className='text-sm text-gray-700'> +91-6386284419</p>
         </div>
-        <button> Talk to us now</button>
+        <button onClick={()=>navigate("/contact")}> Talk to us now</button>
       </div>
     </div>
 

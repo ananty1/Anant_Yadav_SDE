@@ -21,7 +21,7 @@ const projects = [
     description: "An attempt to create a movie recommendation website, using TMDB dataset, and clusting algorithm - KNN for recommendation",
     technologies: "Python, Numpy ,Pandas, and scikt-learn.",
     image: movie_recommendation,
-    link: "https://github.com/ananty1/Movie_Recommendation",
+    link: "https://movie-recommendation-tmdb-dataset.onrender.com/",
   },
 ];
 

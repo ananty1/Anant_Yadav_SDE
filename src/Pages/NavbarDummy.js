@@ -27,7 +27,7 @@ function NavbarDummy() {
           <AiFillPhone size={20}  className='text-[var(--primary-dark)] mr-2'/>
           <p className='text-sm text-gray-700'> +91-6386284419</p>
         </div>
-        <button onClick={()=>navigate("/contact")}> Talk to us now</button>
+        <button onClick={()=>navigate("/contact")}> Talk to me now</button>
       </div>
     </div>
 

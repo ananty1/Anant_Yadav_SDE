@@ -1,11 +1,10 @@
 'use client'
 
-import { useState } from 'react'
-import { AiFillPhone,AiOutlineClockCircle } from 'react-icons/ai'
+// import { useState } from 'react'
+import { AiFillMail,AiOutlineClockCircle } from 'react-icons/ai'
 
 import { BsChatDots } from 'react-icons/bs'
-import Toolbar from './Toolbar'
-import Hero from './Hero'
+
 import { useNavigate } from 'react-router-dom'
 
 
@@ -24,8 +23,8 @@ function NavbarDummy() {
           <p className='text-sm text-gray-700'> 9 am to 7pm</p>
         </div>
         <div className='hidden md:flex items-center px-6'>
-          <AiFillPhone size={20}  className='text-[var(--primary-dark)] mr-2'/>
-          <p className='text-sm text-gray-700'> +91-6386284419</p>
+          <AiFillMail size={20}  className='text-[var(--primary-dark)] mr-2'/>
+          <p className='text-sm text-gray-700'> y2anant@gmail.com</p>
         </div>
         <button onClick={()=>navigate("/contact")}> Talk to me now</button>
       </div>

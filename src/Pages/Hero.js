@@ -17,8 +17,7 @@ const Hero = () => {
                     <h1 className='text-4xl font-bold '> Anant Yadav </h1>
                     <h2 className='text-4xl py-4 italic'> Software Developer</h2>
                     <p>
-                       Hi Guys! This is Anant Yadav, 
-                        Currently, I am interning at Qodeit as Software developer Intern. Also I am pursuing my Btech 4th year in Data Science and Artificial Intelligence from IIT Bhilai.
+                    Hi Guys!, I'm Anant Yadav, a Data and AI Engineering student at IIT Bhilai. I'm skilled in MERN stack development, machine learning, and problem-solving in DSA, with a passion for creating innovative tech solutions.
                     </p>
                 </div>
             </div>

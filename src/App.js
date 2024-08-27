@@ -17,9 +17,9 @@ import Toolbar from './Pages/Toolbar';
 const App = () => {
   return (
     <Router>
-      <div className="App">
+      <div className="App px-10 md:ml-10p md:mr-10p bg-white br-2">
         {/* <Navbar /> */}
-        <NavbarDummy/>
+        {/* <NavbarDummy/> */}
         <Toolbar/>
         
 

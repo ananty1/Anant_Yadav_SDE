@@ -59,9 +59,9 @@ const Hero = () => {
             </div>
         </div>
         </div> */}
-            <div className='p-12'>
+            <div className='md:p-12'>
                 <h1 className='text-4xl font-bold '> Anant yadav </h1>
-                <h2 className='text-4xl py-3 animate-typing overflow-hidden whitespace-nowrap text-gray-800 font-semibold'> Software Developer</h2>
+                <h2 className='text-4xl py-3 md:animate-typing md:overflow-hidden md:whitespace-nowrap text-gray-800 font-semibold'> Software Developer</h2>
                 <p className='text-gray-500 font-semibold w-[70%]'>
                     I'm Anant, currently a Btech Student in Data and Artificial Intelligence at IIT Bhilai. I'm skilled in MERN stack development, machine learning, and problem-solving in DSA, with a passion for creating innovative tech solutions.
                 </p>

@@ -48,26 +48,27 @@ const Toolbar = () => {
             </div>
             <div className={nav ? 'overflow-y-hidden md:hidden  duration-500 absolute text-black cursor-pointer  top-0 w-full h-screen bg-gray-100 px-4 py-7 flex flex-col' : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 '} onClick={handleNav}>
                 <ul className='h-full w-full text-center pt-12'>
-                    <li className='text-2xl py-8'>
+                    <li className='text-2xl py-8 hover:text-emerald-500'>
                         <Link to={"/"}> Home</Link>
                     </li>
 
-                    <li className='text-2xl py-8'>
+                    <li className='text-2xl py-8 hover:text-emerald-500'>
                         <Link to={"/skills"}> Skills</Link>
                     </li>
-                    <li className='text-2xl py-8'>
+                    <li className='text-2xl py-8 hover:text-emerald-500'>
                         <Link to={"/projects"}> Project </Link>
                     </li>
-                    <li className='text-2xl py-8'>
+                    <li className='text-2xl py-8 hover:text-emerald-500'>
                         <Link to={"/experience"}> Experience </Link>
                     </li>
-                    <li className='text-2xl py-8'>
+                    <li className='text-2xl py-8 hover:text-emerald-500'>
                         <Link to={"/education"}> Education </Link>
                     </li>
-                    <li className='text-2xl py-8'>
+                    <li className='text-2xl py-8 hover:text-emerald-500'>
                         <Link to={"/contact"}> Contact </Link>
                     </li>
                 </ul>
+                
             </div>
 
             

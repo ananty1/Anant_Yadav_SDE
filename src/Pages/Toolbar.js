@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { FaBars } from 'react-icons/fa'
+import { IoMdClose } from "react-icons/io";
 import { Link } from 'react-router-dom'
 import AnantLogo from '../assets/Anant_Logo.png';
 // import AboutUsdummy from './AboutUsdummy';
@@ -42,9 +43,10 @@ const Toolbar = () => {
             
             {/* Hamburger icon here */}
             <div onClick={handleNav} className='sm:hidden z-10'>
-                <FaBars size={20} className='mr=4 cursor-pointer' />
+                
+                {nav?<IoMdClose size={20} className='mr=4 cursor-pointer' />:<FaBars size={20} className='mr=4 cursor-pointer' />}
             </div>
-            <div className={nav ? 'overflow-y-hidden md:hidden  duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col' : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 '} onClick={handleNav}>
+            <div className={nav ? 'overflow-y-hidden md:hidden  duration-500 absolute text-black cursor-pointer  top-0 w-full h-screen bg-gray-100 px-4 py-7 flex flex-col' : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 '} onClick={handleNav}>
                 <ul className='h-full w-full text-center pt-12'>
                     <li className='text-2xl py-8'>
                         <Link to={"/"}> Home</Link>

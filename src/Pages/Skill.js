@@ -87,7 +87,9 @@ const skillSet = [
 const Skills = () => {
   return (
     <>
+      <h2 className='text-4xl mb-3 font-bold'>Technical Skills</h2>
       <div className="flex justify-center min-h-[90vh] bg-gray-100 p-6 rounded-lg shadow-md">
+      
         <ul className="relative text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
           {skillSet.map((skills,index)=>(
             <li className="mb-12 ml-8" key={index}>
